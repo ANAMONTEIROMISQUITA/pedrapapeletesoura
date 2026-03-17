@@ -28,3 +28,7 @@ body {
 .choices button:hover {
     background-color: #ffffffaa;
 }
+
+.result {
+    margin-top: 20px;
+}
