@@ -16,3 +16,17 @@ buttons.forEach(button => {
         winnerText.textContent = getWinner(playerChoice, computerChoice);
     });
 });
+
+function getWinner(player, computer) {
+    if (player === computer) return 'Empate 😐';
+
+    if (
+        (player === 'pedra' && computer === 'tesoura') ||
+        (player === 'papel' && computer === 'pedra') ||
+        (player === 'tesoura' && computer === 'papel')
+    ) {
+        return 'Você ganhou! 🎉';
+    }
+
+    return 'Você perdeu 😢';
+}
