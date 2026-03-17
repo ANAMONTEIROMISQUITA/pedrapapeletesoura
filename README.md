@@ -13,8 +13,6 @@ O foco principal foi praticar lógica de programação em JavaScript, manipulaç
 
 - Jogada automática do computador
 
-- Sistema de comparação para definir o vencedor
-
 - Exibição do resultado em tempo real na tela
 
 - Interface simples e interativa
