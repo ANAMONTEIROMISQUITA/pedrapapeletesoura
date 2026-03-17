@@ -24,3 +24,7 @@ body {
     border: none;
     border-radius: 8px;
 }
+
+.choices button:hover {
+    background-color: #ffffffaa;
+}
